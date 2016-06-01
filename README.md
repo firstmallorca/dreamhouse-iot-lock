@@ -19,12 +19,12 @@ Setup:
 Run Locally:
 
 1. Run the app in dev mode: `LOCK=<LOCK ID> ACCESS_TOKEN=<ACCESS_TOKEN> npm run dev`
-1. Toggle the lock: http://localhost:5000/toggle
+1. Toggle the lock: `http://localhost:5000/toggle`
 
 Run on Heroku:
 
 1. Deploy the app: [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-1. Toggle the lock: http://<YOUR HEROKU APP>.herokuapp.com/toggle
+1. Toggle the lock: `http://<YOUR HEROKU APP>.herokuapp.com/toggle`
 
 
 ### App Architecture
