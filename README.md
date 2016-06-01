@@ -8,6 +8,7 @@ This sample app provides an easy way to control a [Lockitron Lock](https://locki
 To get started your will need a Lockitron Bolt with the Bridge device that connects the Bolt to the internet.
 
 Setup:
+
 1. Setup the Bold and Bridge
 1. Create a new API integration app: https://api.lockitron.com/
 1. Copy the testing access token from the newly created app
