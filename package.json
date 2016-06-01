@@ -1,0 +1,17 @@
+{
+  "name": "dreamhouse-lock",
+  "engines": {
+    "node": "^6.2.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "axios": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}

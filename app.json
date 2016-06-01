@@ -1,0 +1,16 @@
+{
+  "name": "dreamhouse-lock",
+  "description": "DreamHouse Lock",
+  "keywords": [
+    "app-cloud"
+  ],
+  "repository": "https://github.com/dreamhouseapp/dreamhouse-lock",
+  "env": {
+    "LOCK": {
+      "description": "The ID of the lock you want to control"
+    },
+    "ACCESS_TOKEN": {
+      "description": "Your Lockitron Access Token"
+    }
+  }
+}
