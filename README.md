@@ -3,7 +3,7 @@ DreamHouse Lock
 
 This sample app provides an easy way to control a [Lockitron Lock](https://lockitron.com/) from the DreamHouse app.  Check out a demo:
 
-    <TODO DEMO>
+[![Demo](http://img.youtube.com/vi/GHIhTDFI_OY/0.jpg)](http://www.youtube.com/watch?v=GHIhTDFI_OY)
 
 To get started your will need a Lockitron Bolt with the Bridge device that connects the Bolt to the internet.
 
