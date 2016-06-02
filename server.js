@@ -1,6 +1,7 @@
 const process = require('process');
 const express = require('express');
 const axios = require('axios');
+const cors = require('cors');
 
 const port = process.env.PORT || 5000;
 
@@ -20,7 +21,23 @@ if (accessToken == null) {
 
 const app = express();
 
-app.get("/:state", (req, res) => {
+app.use(cors());
+
+app.get('/', (req, res) => {
+  const url = `https://api.lockitron.com/v2/locks/${lockId}`;
+
+  const config = {
+    params: {
+      access_token: accessToken
+    }
+  };
+
+  axios.get(url, config)
+    .catch(error => error)
+    .then(getResponse => res.status(getResponse.status).send(getResponse.data).end());
+});
+
+app.get('/:state', (req, res) => {
   const config = {
     params: {
       access_token: accessToken,
